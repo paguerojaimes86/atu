@@ -1,0 +1,13 @@
+{
+  "imei": "435654321239569",
+  "latitude": -12.228012,
+  "longitude": -76.931337,
+  "route_id": "1180",
+  "ts": 1757119795000,
+  "license_plate": "ABC123",
+  "speed": 77.5,
+  "direction_id": 1,
+  "driver_id": "12345678",
+  "tsinitialtrip": 1757097480000,
+  "identifier": "m3d3dqfvdfr2ed2d"
+}

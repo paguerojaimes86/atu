@@ -1,0 +1,87 @@
+{
+  "invalid_imei_too_short": {
+    "imei": "43565432123956",
+    "latitude": -12.228012,
+    "longitude": -76.931337,
+    "route_id": "1180",
+    "ts": 1757119795000,
+    "license_plate": "ABC123",
+    "speed": 77.5,
+    "direction_id": 1,
+    "driver_id": "12345678",
+    "tsinitialtrip": 1757097480000
+  },
+  "invalid_imei_too_long": {
+    "imei": "4356543212395690",
+    "latitude": -12.228012,
+    "longitude": -76.931337,
+    "route_id": "1180",
+    "ts": 1757119795000,
+    "license_plate": "ABC123",
+    "speed": 77.5,
+    "direction_id": 1,
+    "driver_id": "12345678",
+    "tsinitialtrip": 1757097480000
+  },
+  "invalid_latitude_out_of_range": {
+    "imei": "435654321239569",
+    "latitude": 91.0,
+    "longitude": -76.931337,
+    "route_id": "1180",
+    "ts": 1757119795000,
+    "license_plate": "ABC123",
+    "speed": 77.5,
+    "direction_id": 1,
+    "driver_id": "12345678",
+    "tsinitialtrip": 1757097480000
+  },
+  "invalid_longitude_out_of_range": {
+    "imei": "435654321239569",
+    "latitude": -12.228012,
+    "longitude": -181.0,
+    "route_id": "1180",
+    "ts": 1757119795000,
+    "license_plate": "ABC123",
+    "speed": 77.5,
+    "direction_id": 1,
+    "driver_id": "12345678",
+    "tsinitialtrip": 1757097480000
+  },
+  "invalid_speed_too_high": {
+    "imei": "435654321239569",
+    "latitude": -12.228012,
+    "longitude": -76.931337,
+    "route_id": "1180",
+    "ts": 1757119795000,
+    "license_plate": "ABC123",
+    "speed": 1000.0,
+    "direction_id": 1,
+    "driver_id": "12345678",
+    "tsinitialtrip": 1757097480000
+  },
+  "invalid_direction_id": {
+    "imei": "435654321239569",
+    "latitude": -12.228012,
+    "longitude": -76.931337,
+    "route_id": "1180",
+    "ts": 1757119795000,
+    "license_plate": "ABC123",
+    "speed": 77.5,
+    "direction_id": 2,
+    "driver_id": "12345678",
+    "tsinitialtrip": 1757097480000
+  },
+  "invalid_identifier_empty": {
+    "imei": "435654321239569",
+    "latitude": -12.228012,
+    "longitude": -76.931337,
+    "route_id": "1180",
+    "ts": 1757119795000,
+    "license_plate": "ABC123",
+    "speed": 77.5,
+    "direction_id": 1,
+    "driver_id": "12345678",
+    "tsinitialtrip": 1757097480000,
+    "identifier": ""
+  }
+}

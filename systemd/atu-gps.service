@@ -1,0 +1,20 @@
+[Unit]
+Description=ATU GPS WebSocket Integration Service
+After=network.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=senpai
+WorkingDirectory=/home/senpai/Escritorio/atu
+Environment=PYTHONUNBUFFERED=1
+EnvironmentFile=/home/senpai/Escritorio/atu/.env
+ExecStart=/home/senpai/Escritorio/atu/.venv/bin/python -m src.main
+Restart=on-failure
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=atu-gps
+
+[Install]
+WantedBy=multi-user.target
